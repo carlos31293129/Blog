@@ -1,189 +1,135 @@
 *{
-    margin: 0px;
-    padding: 0;
+margin: 0;
+padding: 0;
+background-color: #fff;
 
 
 }
 
-body{
-       background-image: url(https://cdn.wallpapersafari.com/74/49/F7dPYn.jpg);
-}
-
-
-
-.titulo{
-    width: 100%;
-    height: 100px;
-    text-align: center;
-    font-size: 80px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    
-}
-nav{
-   
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-
-}
-
-a:hover{
-color: #C080FF;
-
-}
-
-
-a{
-    font-size: 25px;
-text-decoration: none;
+.menu,h2{
+width: 100%;
+height: 100px;
+background-color: #55008e;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 50px;
 color: white;
-margin: 40px;
 }
-.navegacion{
-height: 20px;
-  display: flex;
-  align-items: center;
-  
+.about{
+color: #55008e;
+text-align: center;
+font-size: 25px;
 }
-.busqueda{
-
-    display: flex;
-    align-items: center;
-    
+.foto{
+width: 80px;
+border: 1px solid #55008e;
+border-radius: 50px;
+padding: 2px;
+margin-left: 20px;
 }
-.botom{
-    color: white;
-    background-color: #C080FF;
-    border-radius: 10px;
-    height: 30px;
-    width: 100px;
-}
-.text{
-    border-radius: 5px;
-    height: 30px;
-    width: 200px;
-}
-.imagen{
-    text-align: center;
-   
-}
-.baner{
-    width: 35%;
-    height: 300px;
-    border-radius: 30px;
-}
-.imagen2{
-    width: 100%;
-    text-align: center;
-}
-
 .carlos{
-    
-    width: 300px ;
-    border-radius: 30px;
+width: 200px;
 }
-.proposito{
-    width: 100%;
-    
-    text-align: center;
-    font-size: 30px;
-    color: black;
+.redes{
+width: 100%;
+height: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
 
 }
+.box{
+width: 400px;
+height: 200px;
+background-color: #55008e;
+text-align: center;
+border-radius: 10px;
+
+}
+.contacto{
+background-color: #55008e;
+border-radius: 10px;
+font-size: 30px;
+color: white;
+text-align: center;
+
+margin: 40px
+
+
+}
+.txt{
+width: 200px;
+height: 50px;
+}
+.boton{
+width: 200px;
+height: 50px;
+border-radius: 10px;
+}
+
+.text{
+width: auto;
+height: 80px;
+background-color: #55008e;
+}
+
+/*footer*/
+
+
 .footer{
 
-	
-   text-align: center;
+
+text-align: center;
 }
 
 .footer .share{
-   padding:1rem 0;
+padding:1rem 0;
 }
 
 .footer .share a{
-   height: 5rem;
-   width: 5rem;
-   line-height: 5rem;
-   font-size: 2rem;
-   color:white;
-   margin:.3rem;
-   border-radius: 50%;
-   border: solid 5px white;
-   text-decoration: none;
+height: 5rem;
+width: 5rem;
+line-height: 5rem;
+font-size: 2rem;
+color:#55008e;
+margin:.3rem;
+border-radius: 50%;
+border: solid 5px #55008e;
+text-decoration: none;
 }
 
 .footer.links:hover {
-	background:white;
+background:#C080FF;
 }
 
 /*#C080FF*/
 
 .footer .links a{
-   padding:.7rem 2rem;
-   color:#fff;
-   font-size: 2rem;
+padding:.7rem 2rem;
+color:#fff;
+font-size: 2rem;
 text-decoration: none;
 }
 
 
 .footer .credit{
-   font-size: 2rem;
-   color:#fff;
-   font-weight: lighter;
-   padding:1.5rem;
-}
+font-size: 2rem;
+color:#55008e;
+font-weight: lighter;
+padding:1.5rem;
 
-
-.footer .links a:hover{
-	background:#C080FF;
-    border-radius: 10px;
 }
 
 .footer .share a:hover{
-	background:#C080FF;
+color: white;
+border: solid 5px #55008e ;
 }
 
-
-
-/*  Dimension de table */
-
-
-@media (max-width: 768px) {
-
-    *{
-        padding: auto;
-        margin: auto;
-    }
-    .baner{
-        width: auto;
-    }
-
-    p.titulo{
-        height: 80px;
-    }
-    .carlos{
-       margin-top: 70px;
-       width: auto;
-    }
-    .proposito{
-        width: auto;
-        color: white;
-    }
+.footer .share a:hover{
+background:#55008e;
 }
 
-/*  Dimension de movil*/
-
-@media (max-width: 768px) {
-    *{
-        padding: auto;
-        margin: auto;  
-    }
-    p{
-        width: 100%;
-    }
-
-}
